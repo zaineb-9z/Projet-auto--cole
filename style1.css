@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif; 
+    background-color: #F4F4F4;
+}
+
+.conteneur {
+    width: 100%; 
+    max-width: 1500px;
+    margin: 15px auto;
+}
+
+.boite {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px 15px; 
+    border-bottom: 2px solid #ccc;
+    background-color: #c3c0c0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.logo img {
+    max-height: 120px;
+    width: auto;     
+    margin-right: 10px;
+}
+
+.titre-site {
+    text-align: center; 
+    padding-left: 10px;
+    flex-grow: 0; 
+}
+
+.titre-site h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333; 
+}
+
+.main-principal {
+    flex-grow: 1; 
+    display: flex;
+    overflow: hidden;
+}
+
+.menu {
+    width: 200px; 
+    background-color: #61AAFA; 
+    padding: 5px;
+    font-weight: bold;
+    color: #000000;
+    border-right: 1px solid #CCCCCC; 
+}
+
+.main {
+    flex-grow: 1;
+    background-color: #F4F4F4;
+    padding: 5px;
+}
+
+.footer {
+    clear: both; 
+    background-color: #c3c0c0;
+    color: #333;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.menu h2 {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 3px;
+    margin-top: 0;
+}
+
+.menu a {
+    display: block;
+    color: #000000; 
+    text-decoration: none;
+    padding: 4px 0;
+}
+
+.main a {
+    background-color: #61AAFA;
+    color: #000000;
+    padding: 1px 4px;
+    text-decoration: none
+}
+.main img {
+    max-height: 300px;
+    width: auto;     
+    margin: 0 auto;
+    display: block; 
+}
